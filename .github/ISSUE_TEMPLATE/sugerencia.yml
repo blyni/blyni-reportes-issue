@@ -1,0 +1,57 @@
+name: Sugerencia
+description: Una idea para mejorar Blyni
+title: "[Sugerencia] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por tu idea. Cuéntanos qué te gustaría y qué problema te resuelve; lo demás es opcional.
+
+        **Lo que escribes aquí es público.** No pongas contraseñas, claves ni datos personales. Si lo que encontraste es un problema de seguridad, no es una sugerencia: abre un reporte que diga solo «Quiero reportar un problema de seguridad», sin detalles.
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Plataforma
+      description: Para cuál la quieres.
+      options:
+        - macOS
+        - Windows
+        - iPhone
+        - iPad
+        - Android
+        - TV
+        - Todas
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: Qué te gustaría que hiciera Blyni
+      placeholder: Poder fijar una pestaña para que no se cierre sin querer.
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: Qué problema te resuelve
+      description: Cuándo lo necesitas y qué haces hoy en su lugar.
+      value: |
+        - Cuándo lo necesito:
+        - Qué hago hoy en su lugar:
+    validations:
+      required: true
+  - type: textarea
+    id: ejemplos
+    attributes:
+      label: Cómo lo imaginas (opcional)
+      description: Unas líneas, un dibujo o una captura de otra aplicación que lo haga bien. Arrastra aquí las imágenes o pégalas con Cmd V / Ctrl V, y tapa los datos personales con un recuadro opaco.
+  - type: checkboxes
+    id: confirmaciones
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Busqué si ya estaba sugerido.
+          required: true
+        - label: Entiendo que esta sugerencia es pública.
+          required: true

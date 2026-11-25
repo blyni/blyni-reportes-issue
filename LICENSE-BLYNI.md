@@ -132,13 +132,13 @@ El nombre «Blyni», la mascota, el wordmark, los logotipos, los iconos de la ap
 
 ## Anexo A. Cómo aplicarla
 
-**En un repositorio:** se agrega este archivo como `LICENCIA-BLYNI.md` en la raíz y el README lo enlaza en su sección «Licencia», junto a las Licencias Existentes que ya tenga. Este archivo debe ser **idéntico** en todos los repositorios de Blyni donde aparezca.
+**En un repositorio:** se agrega este archivo como `LICENSE-BLYNI.md` en la raíz y el README lo enlaza en su sección «Licencia», junto a las Licencias Existentes que ya tenga. Este archivo debe ser **idéntico** en todos los repositorios de Blyni donde aparezca. Su nombre empieza por `LICENSE-` a propósito: así GitHub lo muestra como una pestaña propia junto al README y a las demás licencias del repositorio.
 
 **En un archivo** (opcional), con el aviso:
 
 ```text
 Copyright (C) 2026 Blyni.
-Este archivo también está disponible bajo la Licencia Blyni (LICENCIA-BLYNI.md),
+Este archivo también está disponible bajo la Licencia Blyni (LICENSE-BLYNI.md),
 además de las licencias que ya le correspondan. No se reemplaza ninguna.
 ```
 

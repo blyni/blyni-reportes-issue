@@ -7,12 +7,23 @@
 Aquí se reportan los errores de [Blyni](https://github.com/blyni). Un reporte bien escrito nos ahorra días de trabajo: con él podemos ver lo mismo que tú viste y arreglarlo.
 
 <p align="center">
-  <a href="https://github.com/blyni/blyni-reportes-issue/issues/new"><strong>Abrir un reporte nuevo</strong></a>
+  <a href="https://github.com/blyni/blyni-reportes-issue/issues/new/choose"><strong>Abrir un reporte nuevo</strong></a>
   &nbsp;·&nbsp;
   <a href="https://github.com/blyni/blyni-reportes-issue/issues?q=is%3Aissue">Ver los reportes que ya hay</a>
 </p>
 
 > Blyni está en desarrollo y todavía no tiene versiones públicas para descargar: este espacio es para quienes prueban las versiones de prueba.
+
+## Qué tipo de reporte elegir
+
+Al hacer clic en **Abrir un reporte nuevo** eliges el tipo, y el formulario ya trae los campos y un texto de ejemplo para rellenar:
+
+| Tipo | Cuándo |
+|---|---|
+| **Reporte de error** | Algo de Blyni no funciona como debería. |
+| **Sugerencia** | Una idea para mejorar Blyni. |
+| **Problema de accesibilidad** | No lo puedes usar con tu teclado, lector de pantalla u otra ayuda. |
+| **Pregunta** | Una duda sobre cómo usar Blyni o sobre un reporte. |
 
 ## Antes de reportar
 
@@ -37,7 +48,7 @@ Un buen reporte lleva estas partes, en este orden:
 
 ### Plantilla para copiar
 
-Copia esto en el reporte y rellénalo. Lo que no sepas, déjalo escrito como «no sé»: es mejor que borrarlo.
+Los formularios ya traen estos campos. Esta plantilla es por si lo escribes a mano: cópiala en el reporte y rellénala. Lo que no sepas, déjalo escrito como «no sé»: es mejor que borrarlo.
 
 ````markdown
 **Plataforma:** macOS / Windows / iPhone / iPad / Android / TV

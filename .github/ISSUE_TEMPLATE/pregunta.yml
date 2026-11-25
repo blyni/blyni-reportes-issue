@@ -1,0 +1,33 @@
+name: Pregunta
+description: Una duda sobre cómo usar Blyni o sobre un reporte
+title: "[Pregunta] "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Cuéntanos tu duda. **Lo que escribes aquí es público:** no pongas contraseñas, claves ni datos personales.
+  - type: textarea
+    id: pregunta
+    attributes:
+      label: Tu pregunta
+      placeholder: ¿Se puede cambiar el buscador que usa la barra?
+    validations:
+      required: true
+  - type: textarea
+    id: contexto
+    attributes:
+      label: Contexto (opcional)
+      description: Plataforma, qué intentabas hacer y qué probaste.
+      value: |
+        - Plataforma:
+        - Qué intentaba hacer:
+  - type: checkboxes
+    id: confirmaciones
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Busqué si ya estaba respondido.
+          required: true
+        - label: Entiendo que esta pregunta es pública.
+          required: true

@@ -1,0 +1,92 @@
+name: Problema de accesibilidad
+description: Algo de Blyni no se puede usar con tu teclado, lector de pantalla u otra ayuda
+title: "[Accesibilidad] "
+labels: ["accessibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por avisarnos. Un reporte completo nos ahorra días: llena lo que puedas y escribe «no sé» en lo demás.
+        
+        **Lo que escribes aquí es público.** No pongas contraseñas, claves ni datos personales, y tapa con un recuadro opaco lo que no deba verse en tus capturas. Si es un problema de seguridad, **no lo publiques**: abre un reporte que diga solo «Quiero reportar un problema de seguridad», sin detalles.
+  - type: dropdown
+    id: plataforma
+    attributes:
+      label: Plataforma
+      options:
+        - macOS
+        - Windows
+        - iPhone
+        - iPad
+        - Android
+        - TV
+        - Otra
+    validations:
+      required: true
+  - type: dropdown
+    id: ayuda
+    attributes:
+      label: Con qué ayuda lo usas
+      options:
+        - Lector de pantalla (VoiceOver, Narrador, TalkBack…)
+        - Solo teclado
+        - Zoom o texto grande
+        - Alto contraste o modo oscuro
+        - Reducir movimiento
+        - Control por voz
+        - Otra
+    validations:
+      required: true
+  - type: textarea
+    id: que-paso
+    attributes:
+      label: Qué pasó
+      description: Qué no pudiste hacer, o qué te dijo (o no te dijo) tu ayuda.
+      placeholder: El lector de pantalla no dice el nombre del botón de la barra.
+    validations:
+      required: true
+  - type: textarea
+    id: pasos
+    attributes:
+      label: Pasos para reproducirlo
+      value: |
+        1. Abro Blyni con mi ayuda activada.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Qué esperabas
+      placeholder: Que dijera «Atrás, botón».
+    validations:
+      required: true
+  - type: textarea
+    id: entorno
+    attributes:
+      label: Tu equipo
+      description: Sistema, versión del sistema y versión de Blyni. En el README está dónde ver cada dato.
+      value: |
+        - Sistema y versión:
+        - Versión de Blyni:
+        - Modelo del equipo (si es un teléfono, una tableta o una tele):
+    validations:
+      required: true
+  - type: textarea
+    id: capturas
+    attributes:
+      label: Captura o video
+      description: Arrastra aquí la imagen o el video, o pégalos con Cmd V / Ctrl V. Muestra la ventana completa de Blyni y tapa los datos personales con un recuadro opaco.
+      placeholder: Arrastra aquí tus archivos
+  - type: checkboxes
+    id: confirmaciones
+    attributes:
+      label: Antes de enviar
+      options:
+        - label: Busqué si ya estaba reportado.
+          required: true
+        - label: Tapé los datos personales de mis capturas y no incluí contraseñas ni claves.
+          required: true
+        - label: Entiendo que este reporte es público.
+          required: true

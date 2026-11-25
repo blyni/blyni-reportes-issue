@@ -153,6 +153,6 @@ Un video de 10 segundos, con la barra completa a la vista (adjunto).
 
 ## Licencia
 
-Lo que envías aquí (el texto, las capturas y los videos) es **público**, y le das a Blyni permiso para usarlo con el fin de diagnosticar, corregir y documentar problemas, como dice el artículo 8 de la [Licencia Blyni](LICENCIA-BLYNI.md). Sigue siendo tuyo. Si no puedes publicar algo, no lo adjuntes.
+Lo que envías aquí (el texto, las capturas y los videos) es **público**, y le das a Blyni permiso para usarlo con el fin de diagnosticar, corregir y documentar problemas, como dice el artículo 8 de la [Licencia Blyni](LICENSE-BLYNI.md). Sigue siendo tuyo. Si no puedes publicar algo, no lo adjuntes.
 
-El texto de esta documentación y la [Licencia Blyni](LICENCIA-BLYNI.md) son de Blyni.
+El texto de esta documentación y la [Licencia Blyni](LICENSE-BLYNI.md) son de Blyni.

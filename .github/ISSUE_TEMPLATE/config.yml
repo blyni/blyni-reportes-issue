@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Guía para reportar un error
+    url: https://github.com/blyni/blyni-reportes-issue#readme
+    about: Cómo escribir un buen reporte, con capturas y videos, y qué tapar antes de publicarlo.
